@@ -2,10 +2,10 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6I7PxeEIF3f":
+      case "6fBZp7AydbB":
         Script1();
         break;
-      case "6Yb46UYqEae":
+      case "6C8eLAU3Vwf":
         Script2();
         break;
   }
@@ -49,6 +49,6 @@ doc.save("i-made-waffles.pdf");
 
 /* source */
 img.crossOrigin = "";  
-img.src = "how-to-make-waffles\docs\waffles.pdf"; 
+img.src = "how-to-make-waffles/docs/waffles.pdf"; 
 }
 
