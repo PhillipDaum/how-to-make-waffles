@@ -2,10 +2,10 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6fBZp7AydbB":
+      case "6akjANVVCoT":
         Script1();
         break;
-      case "6C8eLAU3Vwf":
+      case "6GZNPT2ItTq":
         Script2();
         break;
   }
@@ -13,13 +13,13 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  var recipe = "./docs/yummy-waffles.pdf";
-  window.open(recipe);
+   var recipe = "./docs/yummy-waffles.pdf";
+ window.open(recipe);
 }
 
 function Script2()
 {
-var date = new Date();
+  var date = new Date();
 var dd = String(date.getDate()).padStart(2, '0');
 var mm = String(date.getMonth() + 1).padStart(2, '0'); 
 var yyyy = date.getFullYear();
