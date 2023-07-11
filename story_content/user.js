@@ -19,7 +19,7 @@ function Script1()
 
 function Script2()
 {
-  var date = new Date();
+var date = new Date();
 var dd = String(date.getDate()).padStart(2, '0');
 var mm = String(date.getMonth() + 1).padStart(2, '0'); 
 var yyyy = date.getFullYear();
